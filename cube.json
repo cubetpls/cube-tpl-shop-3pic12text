@@ -1,0 +1,16 @@
+{
+	"id": "Q3hnXZ82Zaz",
+	"version": "1.0.0",
+	"name": "cube购物模板",
+	"idn": "shopping",
+	"keywords": [],
+	"ie": 8,
+	"disable_expand": false,
+	"launchimg": "assets/launchimg.png",
+	"files": [
+		"cube.tpl",
+		"cube.css",
+		"cube.js",
+		"assets/launchimg.png"
+	]
+}

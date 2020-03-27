@@ -1,2 +1,446 @@
-# cube-tpl-shop-3pic12text
-标准购物 cube 模板，2图 + 12文字内容
+# 标准购物 cube 模板，3图 + 12文字内容
+
+## 介绍
+标准购物类模板
+
+## 使用
+```
+cubetool init <cubeid> -t https://github.com/ntt360/cube-tpl-shop-3pic12text.git
+```
+或简写：
+```
+cubetool init <cubeid> -t ntt360/cube-tpl-shop-3pic12text
+```
+
+## UI预览
+![标准资讯类模板 UI 预览图](https://raw.githubusercontent.com/ntt360/cube-tpl-shop-3pic12text/master/ui/ui.png)
+
+## data格式
+```json
+{
+  "tabs": [
+    "精选",
+    "大促",
+    "热卖",
+    "低价",
+    "美妆",
+    "品牌"
+  ],
+  "views": [
+    {
+      "image_list": [
+        {
+          "text": "女装秋冬新品",
+          "img": "https://hao7.qhimg.com/t01634ec2160fd3e34e.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=女装"
+        },
+        {
+          "text": "男装秋冬新品",
+          "img": "https://hao7.qhimg.com/t011295a77a77489f68.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=男装"
+        },
+        {
+          "text": "羽绒服新品",
+          "img": "https://hao7.qhimg.com/t0114db3a60c15249bc.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=羽绒服"
+        }
+      ],
+      "text_list": [
+        {
+          "text": "秋冬衬衫特价",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=衬衫"
+        },
+        {
+          "text": "男鞋新品折扣",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=男鞋"
+        },
+        {
+          "text": "大码女装特价",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=大码女装"
+        },
+        {
+          "text": "长袖连衣裙促",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=长袖连衣裙"
+        },
+        {
+          "text": "新品外套折扣",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=外套"
+        },
+        {
+          "text": "女士时尚卫衣",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=卫衣女"
+        },
+        {
+          "text": "针织衫新款",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=毛针织衫"
+        },
+        {
+          "text": "百搭牛仔裤",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=牛仔裤"
+        },
+        {
+          "text": "毛衣3折起",
+          "link": "      http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=毛衣"
+        },
+        {
+          "text": "休闲裤热卖",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=休闲裤"
+        },
+        {
+          "text": "舒适妈妈装",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=妈妈装"
+        },
+        {
+          "text": "百搭半身裙",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=半身裙"
+        }
+      ]
+    },
+    {
+      "image_list": [
+        {
+          "text": "呢大衣特价",
+          "img": " https://hao7.qhimg.com/t010f9441103fd2baff.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=呢大衣"
+        },
+        {
+          "text": "秋冬百搭毛衣",
+          "img": " https://hao7.qhimg.com/t012929026b2e9ac6c6.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=毛衣女"
+        },
+        {
+          "text": "秋冬连衣裙",
+          "img": " https://hao7.qhimg.com/t017c35702bdb9f5273.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=连衣裙秋冬"
+        }
+      ],
+      "text_list": [
+        {
+          "text": "双肩包39元起",
+          "link": "  http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=双肩包"
+        },
+        {
+          "text": "女鞋换季清仓",
+          "link": "  http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=女鞋"
+        },
+        {
+          "text": "时尚男女手表",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=手表"
+        },
+        {
+          "text": "男士卫衣降价",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=卫衣男"
+        },
+        {
+          "text": "显瘦阔腿裤",
+          "link": "      http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=阔腿裤"
+        },
+        {
+          "text": "女士衬衫降价",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=衬衫女"
+        },
+        {
+          "text": "冬季补水面膜",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=面膜"
+        },
+        {
+          "text": "大码外套折扣",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=大码外套"
+        },
+        {
+          "text": "女士针织衫",
+          "link": "      http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=针织衫女"
+        },
+        {
+          "text": "文艺复古女装",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=文艺复古"
+        },
+        {
+          "text": "保暖羊绒衫",
+          "link": "      http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=羊绒衫女"
+        },
+        {
+          "text": "男士夹克清仓",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=夹克男"
+        }
+      ]
+    },
+    {
+      "image_list": [
+        {
+          "text": "双肩背39元起",
+          "img": "https://hao7.qhimg.com/t015d105404695ddc0c.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=双肩包"
+        },
+        {
+          "text": "秋冬时尚短靴",
+          "img": "https://hao7.qhimg.com/t013478abd49014ecc1.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=短靴女"
+        },
+        {
+          "text": "羊毛围巾清仓",
+          "img": "https://hao7.qhimg.com/t017b5d48bf92453f4b.png",
+          "link": "http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=羊绒围巾"
+        }
+      ],
+      "text_list": [
+        {
+          "text": "女士马丁靴",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=马丁靴女"
+        },
+        {
+          "text": "品牌运动鞋",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=运动鞋女"
+        },
+        {
+          "text": "民族风服饰",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=民族风"
+        },
+        {
+          "text": "美丽的汉服",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=汉服"
+        },
+        {
+          "text": "打底长袖T恤",
+          "link": "  http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=长袖t恤女"
+        },
+        {
+          "text": "显气质高跟鞋",
+          "link": "  http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=高跟鞋"
+        },
+        {
+          "text": "甜蜜情侣装",
+          "link": "     http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=情侣装"
+        },
+        {
+          "text": "冲锋衣特价",
+          "link": "     http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=冲锋衣"
+        },
+        {
+          "text": "负离子吹风机",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=吹风机"
+        },
+        {
+          "text": "睡衣清仓热卖",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=睡衣女"
+        },
+        {
+          "text": "秋冬保暖棉服",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=棉衣女"
+        },
+        {
+          "text": "一套搞定穿搭",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=套装女"
+        }
+      ]
+    },
+    {
+      "image_list": [
+        {
+          "text": "早餐小面包",
+          "img": " https://hao7.qhimg.com/t018f0b4ff9fad8be3e.png",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=手撕面包"
+        },
+        {
+          "text": "韩版耳饰9元起",
+          "img": " https://hao7.qhimg.com/t01824615bf28486128.png",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=耳饰"
+        },
+        {
+          "text": "光腿神器打底裤",
+          "img": " https://hao7.qhimg.com/t01838eb9911689778f.png",
+          "link": " http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=打底裤"
+        }
+      ],
+      "text_list": [
+        {
+          "text": "防雾霾口罩",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=口罩"
+        },
+        {
+          "text": "雪地靴59起",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=雪地靴"
+        },
+        {
+          "text": "保暖蚕丝被",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=蚕丝被"
+        },
+        {
+          "text": "女士西装外套",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=西装外套女"
+        },
+        {
+          "text": "冬日保温壶",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=保温壶"
+        },
+        {
+          "text": "天然乳胶枕",
+          "link": "  http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=乳胶枕"
+        },
+        {
+          "text": "智能机器人",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=智能机器人"
+        },
+        {
+          "text": "平价洁面仪",
+          "link": "     http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=洁面仪"
+        },
+        {
+          "text": "保暖内衣热卖",
+          "link": "    http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=保暖内衣女"
+        },
+        {
+          "text": "丝绒连衣裙",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=丝绒连衣裙"
+        },
+        {
+          "text": "时尚皮草外套",
+          "link": "   http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=皮草外套女"
+        },
+        {
+          "text": "颈椎按摩器",
+          "link": "  http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=颈椎按摩器"
+        }
+      ]
+    },
+    {
+      "image_list": [
+        {
+          "text": "这颜色美爆了",
+          "link": " https://s.click.taobao.com/2C25Jxv",
+          "img": " https://hao7.qhimg.com/t01fb1a8f16ce1f371c.png"
+        },
+        {
+          "text": "好眉笔事半功倍",
+          "link": " https://s.click.taobao.com/CCT4Jxv",
+          "img": " https://hao7.qhimg.com/t01a7580bd611970038.png"
+        },
+        {
+          "text": "【爆款】洗面奶",
+          "link": " https://s.click.taobao.com/KdG4Jxv",
+          "img": " https://hao7.qhimg.com/t0191bf81199d108961.png"
+        }
+      ],
+      "text_list": [
+        {
+          "text": "美宝莲粉底液",
+          "link": "  https://s.click.taobao.com/Dr5BJxv"
+        },
+        {
+          "text": "3CE丝绒唇釉",
+          "link": "   https://s.click.taobao.com/gvrAJxv"
+        },
+        {
+          "text": "完美日记白胖子",
+          "link": "  https://s.click.taobao.com/bMHAJxv"
+        },
+        {
+          "text": "21天面部精华",
+          "link": "    https://s.click.taobao.com/xb0AJxv"
+        },
+        {
+          "text": "酒粕面膜热销",
+          "link": "    https://s.click.taobao.com/1oG9Jxv"
+        },
+        {
+          "text": "高销量卸妆水",
+          "link": "    https://s.click.taobao.com/fty8Jxv"
+        },
+        {
+          "text": "丝塔芙洗面奶",
+          "link": "    https://s.click.taobao.com/QNn7Jxv"
+        },
+        {
+          "text": "屁桃联名腮红",
+          "link": "   https://s.click.taobao.com/7Gt6Jxv"
+        },
+        {
+          "text": "十二色动物眼影",
+          "link": "  https://s.click.taobao.com/uck6Jxv"
+        },
+        {
+          "text": "平价品质睫毛膏",
+          "link": "   https://s.click.taobao.com/IwS6Jxv"
+        },
+        {
+          "text": "小蘑菇头遮瑕",
+          "link": "   https://s.click.taobao.com/LSF6Jxv"
+        },
+        {
+          "text": "影楼湿粉底",
+          "link": "   https://s.click.taobao.com/Nyw5Jxv"
+        }
+      ]
+    },
+    {
+      "image_list": [
+        {
+          "text": "伊芙丽特卖",
+          "img": " https://hao7.qhimg.com/t01433cb28f3526b517.png",
+          "link": " https://s.click.taobao.com/1D82Jxv"
+        },
+        {
+          "text": "波司登羽绒服",
+          "img": " https://hao7.qhimg.com/t016ab6ea376ec14b2c.png",
+          "link": " https://s.click.taobao.com/9iM1Jxv"
+        },
+        {
+          "text": "马克华菲男装",
+          "img": " https://hao7.qhimg.com/t0180074bc54bd11a45.png",
+          "link": " https://s.click.taobao.com/yTH1Jxv"
+        }
+      ],
+      "text_list": [
+        {
+          "text": "美宝莲粉底液",
+          "link": "  https://s.click.taobao.com/Dr5BJxv"
+        },
+        {
+          "text": "3CE丝绒唇釉",
+          "link": "   https://s.click.taobao.com/gvrAJxv"
+        },
+        {
+          "text": "完美日记白胖子",
+          "link": "  https://s.click.taobao.com/bMHAJxv"
+        },
+        {
+          "text": "21天面部精华",
+          "link": "    https://s.click.taobao.com/xb0AJxv"
+        },
+        {
+          "text": "酒粕面膜热销",
+          "link": "    https://s.click.taobao.com/1oG9Jxv"
+        },
+        {
+          "text": "高销量卸妆水",
+          "link": "    https://s.click.taobao.com/fty8Jxv"
+        },
+        {
+          "text": "丝塔芙洗面奶",
+          "link": "    https://s.click.taobao.com/QNn7Jxv"
+        },
+        {
+          "text": "屁桃联名腮红",
+          "link": "   https://s.click.taobao.com/7Gt6Jxv"
+        },
+        {
+          "text": "十二色动物眼影",
+          "link": "  https://s.click.taobao.com/uck6Jxv"
+        },
+        {
+          "text": "平价品质睫毛膏",
+          "link": "   https://s.click.taobao.com/IwS6Jxv"
+        },
+        {
+          "text": "小蘑菇头遮瑕",
+          "link": "   https://s.click.taobao.com/LSF6Jxv"
+        },
+        {
+          "text": "影楼湿粉底",
+          "link": "   https://s.click.taobao.com/Nyw5Jxv"
+        }
+      ]
+    }
+  ]
+}
+```

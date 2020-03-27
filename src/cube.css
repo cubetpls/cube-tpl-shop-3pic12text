@@ -1,0 +1,86 @@
+.tabs .item {
+  float: left;
+  width: 45px;
+  height: 20px;
+  margin-bottom: 9px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.tabs .item a {
+  display: block;
+  color: #333;
+}
+.tabs .item a:hover {
+  color: #50ca56;
+  text-decoration: none;
+}
+.tabs .current {
+  background-color: #00c13c;
+}
+.tabs .current a {
+  color: #fff;
+  cursor: default;
+}
+.tabs .current a:hover {
+  color: #fff;
+}
+
+.views {
+  clear: both;
+}
+.views .item {
+  display: none
+}
+.views .current {
+  display: block
+}
+
+.img-list {
+  margin-left: -10px;
+  margin-bottom: 6px;
+  height: 126px;
+}
+.img-list .img-item {
+  float: left;
+  width: 116px;
+  height: 126px;
+  margin-left: 10px;
+  position: relative;
+}
+.img-list .img-item .text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, .4);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 3px;
+  box-sizing: border-box;
+}
+.img-list .img-item .text:hover {
+  text-decoration: underline;
+}
+
+.text-list {
+  margin-left: -10px;
+}
+.text-list .text-item {
+  float: left;
+  width: 116px;
+  margin-left: 10px;
+  line-height: 24px;
+  text-indent: 7px;
+  font-size: 14px;
+  background: url(https://p5.ssl.qhimg.com/t014d8d248abfc8584b.png) left no-repeat;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
