@@ -39,6 +39,9 @@ export default {
       current: index
     })
   },
+  returnFalse () {
+    return false
+  },
   onHide(){
     /*cube 被隐藏，会被多次调用 */
   },
